@@ -1,0 +1,157 @@
+couldn't import doomish
+Couldn't import doom
+(288, 512, 3)
+(288, 512)
+Tensor("online/layers/dense_2/BiasAdd:0", shape=(?, 2), dtype=float32)
+Tensor("online/layers/Mean:0", shape=(?, 1), dtype=float32)
+Tensor("target/layers/dense_2/BiasAdd:0", shape=(?, 2), dtype=float32)
+Tensor("target/layers/Mean:0", shape=(?, 1), dtype=float32)
+Best t so far: 32
+[MoviePy] >>>> Building video movie/DQN-0_BSF.webm
+[MoviePy] Writing video movie/DQN-0_BSF.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-0_BSF.webm 
+
+[MoviePy] >>>> Building video movie/DQN-0.webm
+[MoviePy] Writing video movie/DQN-0.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-0.webm 
+
+[MoviePy] >>>> Building video movie/DQN-200.webm
+[MoviePy] Writing video movie/DQN-200.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-200.webm 
+
+[MoviePy] >>>> Building video movie/DQN-400.webm
+[MoviePy] Writing video movie/DQN-400.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-400.webm 
+
+[410] time live:18, cumulated reward: 0.800, exploring rate: 0.099986, loss: 0.028290
+Best t so far: 61
+[MoviePy] >>>> Building video movie/DQN-411_BSF.webm
+[MoviePy] Writing video movie/DQN-411_BSF.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-411_BSF.webm 
+
+[420] time live:61, cumulated reward: 5.100, exploring rate: 0.099986, loss: 0.009924
+Best t so far: 75
+[MoviePy] >>>> Building video movie/DQN-424_BSF.webm
+[MoviePy] Writing video movie/DQN-424_BSF.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-424_BSF.webm 
+
+[430] time live:54, cumulated reward: 4.400, exploring rate: 0.099986, loss: 0.035499
+[440] time live:61, cumulated reward: 5.100, exploring rate: 0.099985, loss: 0.001189
+Best t so far: 77
+[MoviePy] >>>> Building video movie/DQN-446_BSF.webm
+[MoviePy] Writing video movie/DQN-446_BSF.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-446_BSF.webm 
+
+[450] time live:61, cumulated reward: 5.100, exploring rate: 0.099985, loss: 0.001362
+[460] time live:42, cumulated reward: 3.200, exploring rate: 0.099985, loss: 0.000515
+[470] time live:44, cumulated reward: 3.400, exploring rate: 0.099984, loss: 0.001919
+[480] time live:61, cumulated reward: 5.100, exploring rate: 0.099984, loss: 0.000527
+Best t so far: 97
+[MoviePy] >>>> Building video movie/DQN-482_BSF.webm
+[MoviePy] Writing video movie/DQN-482_BSF.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-482_BSF.webm 
+
+[490] time live:61, cumulated reward: 5.100, exploring rate: 0.099984, loss: 0.000203
+[500] time live:41, cumulated reward: 3.100, exploring rate: 0.099983, loss: 0.000373
+[510] time live:41, cumulated reward: 3.100, exploring rate: 0.099983, loss: 0.013093
+Best t so far: 100
+[MoviePy] >>>> Building video movie/DQN-514_BSF.webm
+[MoviePy] Writing video movie/DQN-514_BSF.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-514_BSF.webm 
+
+[520] time live:41, cumulated reward: 3.100, exploring rate: 0.099983, loss: 0.001232
+[530] time live:69, cumulated reward: 6.900, exploring rate: 0.099982, loss: 0.002001
+[540] time live:61, cumulated reward: 5.100, exploring rate: 0.099982, loss: 0.001634
+[550] time live:61, cumulated reward: 5.100, exploring rate: 0.099982, loss: 0.044233
+[560] time live:61, cumulated reward: 5.100, exploring rate: 0.099981, loss: 0.002455
+[570] time live:61, cumulated reward: 5.100, exploring rate: 0.099981, loss: 0.044648
+[580] time live:49, cumulated reward: 3.900, exploring rate: 0.099981, loss: 0.045634
+[590] time live:61, cumulated reward: 5.100, exploring rate: 0.099980, loss: 0.007176
+[600] time live:39, cumulated reward: 2.900, exploring rate: 0.099980, loss: 0.002142
+[MoviePy] >>>> Building video movie/DQN-600.webm
+[MoviePy] Writing video movie/DQN-600.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-600.webm 
+
+[610] time live:42, cumulated reward: 3.200, exploring rate: 0.099980, loss: 0.001912
+[620] time live:61, cumulated reward: 5.100, exploring rate: 0.099980, loss: 0.000853
+[630] time live:44, cumulated reward: 3.400, exploring rate: 0.099979, loss: 0.000775
+[640] time live:41, cumulated reward: 3.100, exploring rate: 0.099979, loss: 0.000879
+[650] time live:61, cumulated reward: 5.100, exploring rate: 0.099979, loss: 0.001966
+[660] time live:65, cumulated reward: 6.500, exploring rate: 0.099978, loss: 0.001544
+[670] time live:61, cumulated reward: 5.100, exploring rate: 0.099978, loss: 0.003935
+[680] time live:61, cumulated reward: 5.100, exploring rate: 0.099978, loss: 0.006200
+[690] time live:61, cumulated reward: 5.100, exploring rate: 0.099977, loss: 0.004312
+[700] time live:41, cumulated reward: 3.100, exploring rate: 0.099977, loss: 0.014992
+[710] time live:61, cumulated reward: 5.100, exploring rate: 0.099977, loss: 0.001767
+[720] time live:61, cumulated reward: 5.100, exploring rate: 0.099976, loss: 0.017709
+[730] time live:61, cumulated reward: 5.100, exploring rate: 0.099976, loss: 0.020740
+[740] time live:51, cumulated reward: 4.100, exploring rate: 0.099976, loss: 0.094188
+[750] time live:61, cumulated reward: 5.100, exploring rate: 0.099975, loss: 0.000832
+[760] time live:61, cumulated reward: 5.100, exploring rate: 0.099975, loss: 0.062214
+[770] time live:61, cumulated reward: 5.100, exploring rate: 0.099975, loss: 0.003360
+[780] time live:61, cumulated reward: 5.100, exploring rate: 0.099974, loss: 0.001830
+[790] time live:61, cumulated reward: 5.100, exploring rate: 0.099974, loss: 0.001897
+[800] time live:61, cumulated reward: 5.100, exploring rate: 0.099974, loss: 0.029755
+[MoviePy] >>>> Building video movie/DQN-800.webm
+[MoviePy] Writing video movie/DQN-800.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-800.webm 
+
+[Saver] Saving variables of online agent(800 episode)...Done.
+[810] time live:40, cumulated reward: 3.000, exploring rate: 0.099973, loss: 0.004670
+[820] time live:61, cumulated reward: 5.100, exploring rate: 0.099973, loss: 0.086278
+[830] time live:53, cumulated reward: 4.300, exploring rate: 0.099973, loss: 0.002382
+[840] time live:61, cumulated reward: 5.100, exploring rate: 0.099972, loss: 0.000843
+[850] time live:60, cumulated reward: 5.000, exploring rate: 0.099972, loss: 0.080904
+[860] time live:61, cumulated reward: 5.100, exploring rate: 0.099972, loss: 0.008672
+[870] time live:61, cumulated reward: 5.100, exploring rate: 0.099971, loss: 0.003416
+[880] time live:61, cumulated reward: 5.100, exploring rate: 0.099971, loss: 0.026791
+[890] time live:61, cumulated reward: 5.100, exploring rate: 0.099971, loss: 0.005672
+[900] time live:59, cumulated reward: 4.900, exploring rate: 0.099970, loss: 0.012001
+[910] time live:61, cumulated reward: 5.100, exploring rate: 0.099970, loss: 0.011524
+[920] time live:75, cumulated reward: 7.500, exploring rate: 0.099970, loss: 0.002546
+[930] time live:61, cumulated reward: 5.100, exploring rate: 0.099969, loss: 0.020471
+[940] time live:67, cumulated reward: 6.700, exploring rate: 0.099969, loss: 0.054947
+[950] time live:61, cumulated reward: 5.100, exploring rate: 0.099969, loss: 0.004678
+[960] time live:58, cumulated reward: 4.800, exploring rate: 0.099968, loss: 0.002793
+[970] time live:40, cumulated reward: 3.000, exploring rate: 0.099968, loss: 0.058991
+[980] time live:41, cumulated reward: 3.100, exploring rate: 0.099968, loss: 0.001031
+Best t so far: 109
+[MoviePy] >>>> Building video movie/DQN-989_BSF.webm
+[MoviePy] Writing video movie/DQN-989_BSF.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-989_BSF.webm 
+
+[990] time live:61, cumulated reward: 5.100, exploring rate: 0.099967, loss: 0.004373
+[1000] time live:61, cumulated reward: 5.100, exploring rate: 0.099967, loss: 0.002290
+[MoviePy] >>>> Building video movie/DQN-1000.webm
+[MoviePy] Writing video movie/DQN-1000.webm
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: movie/DQN-1000.webm 
+
+[1010] time live:61, cumulated reward: 5.100, exploring rate: 0.099967, loss: 0.012586
+[1020] time live:42, cumulated reward: 3.200, exploring rate: 0.099966, loss: 0.003375
+[1030] time live:41, cumulated reward: 3.100, exploring rate: 0.099966, loss: 0.003265
+[1040] time live:61, cumulated reward: 5.100, exploring rate: 0.099966, loss: 0.002890
+[1050] time live:61, cumulated reward: 5.100, exploring rate: 0.099965, loss: 0.005105
+[1060] time live:62, cumulated reward: 5.200, exploring rate: 0.099965, loss: 0.004706
+[1070] time live:61, cumulated reward: 5.100, exploring rate: 0.099965, loss: 0.002973
+[1080] time live:45, cumulated reward: 3.500, exploring rate: 0.099964, loss: 0.025677
+[1090] time live:46, cumulated reward: 3.600, exploring rate: 0.099964, loss: 0.002315
+[1100] time live:41, cumulated reward: 3.100, exploring rate: 0.099964, loss: 0.004604
+[1110] time live:61, cumulated reward: 5.100, exploring rate: 0.099963, loss: 0.003432
+[1120] time live:61, cumulated reward: 5.100, exploring rate: 0.099963, loss: 0.117826
+[1130] time live:42, cumulated reward: 3.200, exploring rate: 0.099963, loss: 0.036636
+[1140] time live:61, cumulated reward: 5.100, exploring rate: 0.099962, loss: 0.049310
+[1150] time live:61, cumulated reward: 5.100, exploring rate: 0.099962, loss: 0.021658
+[1160] time live:61, cumulated reward: 5.100, exploring rate: 0.099962, loss: 0.004770
