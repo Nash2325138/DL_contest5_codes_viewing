@@ -207,7 +207,9 @@ After the modification, our training converges more quickly as we expected.
 Before the competition ends, our best model (evaluated by alive time of the 100 hidden seed generated games) uses all the techniques, modification, and hyper-parameters mentioned above for training around 4360 episodes.
 
 Here is a demo video we generated for a random episode with only exploitation. It lives at least for 12000 timestep and stops, because our poor memory can afford to store the screens if it continues to play.
+
 <video controls src="Report/files/demo1.webm"/> <br>
+(Since HTML5 video is not supported on github markdown, please refer to [./Report/files/demo1.webm](https://github.com/Nash2325138/DL_contest5_codes_viewing/blob/master/Report/files/demo1.webm))
 
 It seems pretty good. However, for some rare situations, it's not able to live more than 1000 timesteps, which becomes the reason why we can't reach score 0 on kaggle (209 on private score).
 
@@ -221,6 +223,7 @@ After competition ended, I let the model run for a whole day. According to the s
 We didn't record its video because of the limitation of memory, but here's a version which lives for 12000 timestep (and is forced to stop due to memory):
 
 <video controls src="./Report/files/demo2.webm"/>  <br>
+(Since HTML5 video is not supported on github markdown, please refer to [./Report/files/demo2.webm](https://github.com/Nash2325138/DL_contest5_codes_viewing/blob/master/Report/files/demo2.webm))
 
 If we evaluate the score (for the 100 hidden seeds), there's still few cases that the bird can't survive for more than 1000 timesteps.
 
