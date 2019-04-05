@@ -113,38 +113,7 @@ Q = V + A - tf.reduce_mean(A, axis=1, keep_dims=True)
 
 主要利用 DQN Network 與 Seperated Networks 為基礎，大致上的 Pseudo Code 如下：
 
-(The LaTeX sucks on github markdown XD)
-
-$
-\begin{aligned}
-D &\gets \text{Replay memory} \\
-\theta &\gets \text{Random initialized network weights} \\
-\theta' &\gets \text{Copy of } \theta \\
-N_{s} &\gets \text{Frame stack size} \\
-N_{r} &\gets \text{Replay buffer size} \\
-N_{b} &\gets \text{Training batch size} \\
-N_{f} &\gets \text{Target network replacement frequency} \\
-\end{aligned} \\
-\text{for } episode = 1 ... M\ \text{do} \\
-\ \ \ \ \text{Initialize frame sequence } x = () \\
-\ \ \ \ \text{for } t = 0, 1, ... \text{do} \\
-\ \ \ \ \ \ \ \ \text{Set state } s \gets x \\
-\ \ \ \ \ \ \ \ \text{Select action } a \text{ using } \epsilon \text{-greedy approach}\\
-\ \ \ \ \ \ \ \ \text{Get next frame } x^{t} \text{ and reward } r \text{ from enviromnent when taking action } a \\
-\ \ \ \ \ \ \ \ \text{Append } x^{t} \text{ to } x \text{ and remove } x^{t_{min}} \text{ if } |x| \gt N_{s} \\
-\ \ \ \ \ \ \ \ \text{Set } s' \gets x \text{ and add transition tuple } (s, a, r, s') \text{ to } D \text{,} \\
-\ \ \ \ \ \ \ \ \ \ \ \ \text{replacing the oldest tuple if } |D| \ge N_{r} \\
-\ \ \ \ \ \ \ \ \text{if } |D| \le N_{r} \times 0.8 \\
-\ \ \ \ \ \ \ \ \ \ \ \ \text{ continue }\\
-\ \ \ \ \ \ \ \ \text{end if}\\
-\ \ \ \ \ \ \ \ \text{Sample a mini batch of } N_{b} \text{ tuples } (s, a, r, s') \text{ from } D \text{ uniformly } \\
-\ \ \ \ \ \ \ \ \text{Get } Q \text{ values, one for each of the } N_{b} \text{ tuples} \\
-\ \ \ \ \ \ \ \ \text{Let } y_{j} = \begin{cases}\begin{align} r_{j} &,\ \ \text{if } s'_{j} \text{ is terminal} \\ r_{j} + \gamma \times max_{a'_{j}} \big( Q(s'_{j}, a'_{j}; \theta') \big) &, \ \ \text{otherwise}\end{align}\end{cases} \\
-\ \ \ \ \ \ \ \ \text{Do a gradient descent step with loss } \|y - Q(s, a; \theta)\|^{2} \\
-\ \ \ \ \ \ \ \ \text{Replace target parameters } \theta' \gets \theta \text{ every } N_{f} \text{ steps} \\
-\ \ \ \ \text{end for} \\
-\text{end for}
-$
+<img src="https://i.imgur.com/4XSQlOt.png" width=600pt> </img>
 
 即：每1個time step，做
 - Get action a, reward r, next screen x'
